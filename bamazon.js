@@ -18,6 +18,6 @@ var connection = mysql.createConnection({
   connection.connect(function(err) {
     if (err) throw err;
     // run the start function after the connection is made to prompt the user
-    console.log("connection listening on Port: " + port);
+    console.log("connection listening on Port 8889");
   });
   
