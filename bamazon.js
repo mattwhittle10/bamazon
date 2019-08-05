@@ -30,6 +30,11 @@ var connection = mysql.createConnection({
       name: "item",
       type: "input",
       message: "Which item ID would you like to purchase?"
+    },
+    {
+      name: "item",
+      type: "input",
+      message: "Please enter the quantity you would like to purhcase."
     }
     ])
   };
