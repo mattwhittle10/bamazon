@@ -1,5 +1,7 @@
 var inquirer = require("inquirer");
 var mysql = require("mysql");
+var itemChosen;
+var quantityChosen;
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -38,11 +40,12 @@ var connection = mysql.createConnection({
     }
     ])
     .then(function(answer) {
-        // connection.query(
-        //     "SELECT * FROM products" +
-        //     "WHERE item='answer'"
-        // )
-        console.log(answer);
-    })
+        console.log("item: " + answer.item);
+        console.log("quantity: " + answer.quantity);
+        itemChosen = answer.item;
+        console.log(itemChosen);
+        quantityChosen = answer.quantity;
+        console.log(quantityChosen);
+    }) 
   };
   
