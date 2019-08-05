@@ -32,10 +32,17 @@ var connection = mysql.createConnection({
       message: "Which item ID would you like to purchase?"
     },
     {
-      name: "item",
+      name: "quantity",
       type: "input",
       message: "Please enter the quantity you would like to purhcase."
     }
     ])
+    .then(function(answer) {
+        // connection.query(
+        //     "SELECT * FROM products" +
+        //     "WHERE item='answer'"
+        // )
+        console.log(answer);
+    })
   };
   
