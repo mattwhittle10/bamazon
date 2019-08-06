@@ -21,8 +21,8 @@ This app first displays all the currently available items and the quantity for e
 * Sequel Pro used to create database.
 
 ### Link to Github and Recordings
-* https://github.com/mattwhittle10/liri
-* https://drive.google.com/file/d/1w7lkGPJC6fYZFkJ4q1g8L2FJ5scBen_9/view
+* https://github.com/mattwhittle10/bamazon
+* https://drive.google.com/file/d/177uRXzu3FiKxoLI5q5QaCuHEFNdIUQnF/view
 
 #### My Role
 I created this from start to finish. I used past examples of code from our class and researched a lot on my own. I leveraged the w3Schools website a lot to see how to use SQL Syntax. 
